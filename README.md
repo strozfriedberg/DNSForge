@@ -1,5 +1,5 @@
 # DNSForge
-DNSForge is a network pentesting tool for responding to name resolution requests made to the authoritative DNS server in an internal network landscape, achieving interception and reuse of system credentials without user interaction. This tool is intended to be used alongside [Responder](https://github.com/lgandx/Responder). The original blog post for DNSForge can be found [here](https://aon.com/cyberlabs/dnsforge)
+DNSForge is a network pentesting tool for responding to name resolution requests made to the authoritative DNS server in an internal network landscape, achieving interception and reuse of system credentials without user interaction. This tool is intended to be used alongside [Responder](https://github.com/lgandx/Responder). The original blog post for DNSForge can be found [here](https://www.levelblue.com/blogs/spiderlabs-blog/dnsforge-responding-with-force/)
 
 ## Attack Customization
 One of 2 attack modes must be specified when using DNSForge:
@@ -25,7 +25,7 @@ sudo dnsforge relay -i <interface> -p <attacker IP> -t <victim client> -q wpad -
 ## Installation
 The tool can be installed using [pipx](https://github.com/pypa/pipx)
 ```bash
-pipx install git+https://github.com/AonCyberLabs/DNSForge
+pipx install git+https://github.com/strozfriedberg/DNSForge
 ```
 
 Alternatively, the tool can be installed using [Poetry](https://python-poetry.org/) after cloning the repo.
@@ -107,4 +107,4 @@ ARP Spoofing:
 ```
 
 ### Copyright
-Copyright 2025 Aon plc
+Copyright 2026 LevelBlue, LLC
